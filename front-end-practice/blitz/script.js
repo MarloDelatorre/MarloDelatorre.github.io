@@ -29,7 +29,7 @@ function slideTo(index) {
   // set selected description to active
   sliderDescriptions[index - 1].setAttribute("class", "active");
   // set appropriate background image
-  document.getElementsByClassName("image-wrapper")[0].style.backgroundImage = "url(img/slider-" + index + ".jpg";
+  document.getElementsByClassName("image-wrapper")[0].style.backgroundImage = "url(img/slider-" + index + ".jpg)";
 }
 
 window.setInterval(function() {
