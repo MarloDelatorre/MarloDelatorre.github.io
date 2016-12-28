@@ -1,4 +1,4 @@
-var dropdwnToggled = false;
+var dropdownToggled = false;
 var imageIndex = 1;
 
 function toggleDropdown() {
