@@ -9,10 +9,12 @@ In this directory, you will find the source code to some webpages that I have im
 Links to the original work will be included in both the source and on this readme.
 
 * Blitz
+
    Browser support:  
    Live Preview | Link to .PSD  
 
-* Craft Lance 
+* Craft Lance
+ 
   Browser support:  
   Live Preview | Link to .PSD  
 
