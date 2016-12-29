@@ -269,7 +269,7 @@ ul.slider-indicator li.active a {
 }
 
 .divider .container {
-  background-color: #ececec; 
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAIklEQVQYV2NkQAJv3rz5zwjjgzgiIiKMYAEYB8RmROaABAARVA/I/J+uXwAAAABJRU5ErkJggg==) repeat;
   text-align: center;
 }
 
@@ -281,9 +281,6 @@ ul.slider-indicator li.active a {
   font-weight: bold;
   font-size: 1.5em;
   color: #464646;
-}
-
-.projects {
 }
 
 .projects .container {
@@ -325,8 +322,12 @@ ul.slider-indicator li.active a {
 
 .footer {
   background-color: #f6f6f6;
-  border-top: solid 6px #ececec; 
   padding: 20px;
+}
+
+.footer-liner {
+  height: 6px;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAIklEQVQYV2NkQAJv3rz5zwjjgzgiIiKMYAEYB8RmROaABAARVA/I/J+uXwAAAABJRU5ErkJggg==) repeat;
 }
 
 .col-6 {
