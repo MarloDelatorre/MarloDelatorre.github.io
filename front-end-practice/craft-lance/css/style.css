@@ -1,0 +1,294 @@
+/*============================================================ 
+ *  Default HTML Elements 
+ *============================================================*/
+body {
+  font-size: 16px;
+  font-family: Helvetica, sans-serif;
+  color: #838383;
+  text-align: center;
+}
+
+h1 {
+  color: #000;
+  font-size: 2.75em; 
+  margin: 30px 0;
+}
+
+p {
+  line-height: 1.75em;
+}
+
+a:link, a:visited {
+  color: #000; 
+  text-decoration: none;
+}
+
+a:hover, a:active {
+
+}
+
+/*============================================================ 
+ * General Reusable Elements 
+ *============================================================*/
+.container {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.container.wide {
+  max-width: 1200px;
+}
+
+.row {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 100px 10px;
+}
+
+.bg-scanline {
+  background: #fff url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAIklEQVQYV2NkQAJv3rz5zwjjgzgiIiKMYAEYB8RmROaABAARVA/I/J+uXwAAAABJRU5ErkJggg==) repeat;
+}
+
+.btn {
+  border: 1px solid #ececec;
+  border-radius: 25px;
+  padding: 10px 35px;
+}
+
+.contact-bar {
+  color: #fff;
+  background-color: #282828;
+  padding: 15px;
+  overflow: hidden;
+}
+
+.br-shadow {
+  box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.2);
+}
+
+/*============================================================ 
+ * Heading Styles (Contact and Navigation)  
+ *============================================================*/
+.contact-bar a:hover i, .contact-bar a:focus i {
+  color: #5db442; 
+}
+
+.contact-bar ul, .nav ul {
+  list-style-type: none;
+}
+
+.contact-bar ul li, .nav ul li {
+  float: left;
+}
+
+.contact-bar ul li i {
+  color: #fff;
+  margin: 0 5px;
+}
+
+ul.social-media {
+  float: left;
+}
+
+ul.contact-info {
+  float: right; 
+}
+
+ul.contact-info li {
+  margin-left: 30px;
+}
+
+.nav {
+  padding: 25px 10px;
+  overflow: hidden;
+  position: relative;
+  z-index: 9999;
+  box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.4);
+}
+
+span.nav-logo {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  float: left;
+}
+
+ul.nav-menu {
+  float: right;
+}
+
+ul.nav-menu li a {
+  line-height: 2.5em;
+  margin-left: 25px;
+}
+
+.nav-menu .btn {
+  color: #5db442;
+  border-color:  #5db442;
+}
+
+/*============================================================ 
+ * Landing Section Styles  
+ *============================================================*/
+.landing {
+  color: #000;
+  background-color: #4ca368; 
+  padding: 80px 10px 70px 10px; 
+}
+
+.landing img {
+  max-width: 100%;
+  height: auto;
+  margin: 30px 0 80px;
+}
+
+.landing p:last-child {
+  color: #ececec;
+}
+
+/*============================================================ 
+ * Community Section Styles  
+ *============================================================*/
+.community .process {
+  background-color: white;
+  padding: 80px 160px;
+  margin: 15px;
+  display: inline-block;
+}
+
+.process i {
+  display: inline-block;
+  margin: 10px;
+  color: #5db442;
+}
+
+.process div {
+  display: inline-block;
+  margin: 10px;
+  text-align: left;
+}
+
+.process h2 {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  color: #5db442;
+}
+
+.process ol {
+  list-style-type: decimal;
+  margin-left: 20px;
+}
+
+.process ol li {
+  margin: 10px 0;
+}
+
+ul.glyphs {
+  list-style-type: none;
+  margin: 30px auto;
+  max-width: 600px;
+}
+
+ul.glyphs li {
+  display: inline-block;
+  float: left;
+  width: 33.3333%;
+}
+
+ul.glyphs li a {
+  display: inline-block;
+  color: #5db442;
+  border: 1px solid #5bd442;
+  border-radius: 100%;
+  padding: 20px;
+  margin: 10px;
+  background-color: white;
+  width: 16px;
+  height: 16px;
+}
+
+/*============================================================ 
+ * Price Table Section Styles  
+ *============================================================*/
+.editions {
+  display: inline-block;
+  position: relative;
+}
+
+.editions p.active {
+  color: #fff;
+  background-color: #5db442;
+}
+
+.editions p.business {
+  position: relative;
+  border: 1px solid #ececec;
+  border-right: none;
+  border-radius: 20px 0 0 20px;
+  padding: 5px 25px;
+  display: inline-block;
+}
+
+.editions p.business::after {
+  content: "Or";
+  text-transform: uppercase;
+  position: absolute;
+  border: 1px solid #4ca368; 
+  background-color: #4ca368;
+  border-radius: 50%;
+  padding: 0 6px;
+  color: #fff;
+  font-size: 0.7em;
+  z-index: 9999;
+  right: -14px;
+  top: 4px;
+}
+
+.editions p.community {
+  border: 1px solid #ececec;
+  border-radius: 0 20px 20px 0;
+  padding: 5px 25px;
+  display: inline-block;
+}
+
+/*============================================================ 
+ * Features Section Styles  
+ *============================================================*/
+.features .card {
+  background-color: #fff;
+  box-sizing: border-box;
+  margin: 12.5px 10px;
+  padding: 40px 10px;
+  display: inline-block;
+  width: 22.5%;
+}
+
+.card-title i {
+  color: #5db442;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #ececec;
+  display: inline-block;
+}
+
+.card-title h2 {
+  text-transform: uppercase;
+  font-size: 1.25em;
+}
+
+p.card-desc {
+  margin: 20px 0;
+}
+
+/*============================================================ 
+ * Footer Section Styles  
+ *============================================================*/
+
