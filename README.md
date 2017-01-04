@@ -7,7 +7,7 @@ I will eventually create a formal portfolio, but in the meantime, this will serv
 
 In this directory, you will find the source code to some webpages that I have implemented based on .PSD files that I found online. 
 Links to the original work will be included in both the source and on this readme.
-
+These sites are made to be responsive, so try resizing your window or going into developer tools to see.
 * Blitz
 
    Browser support:  
