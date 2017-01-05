@@ -24,7 +24,7 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-
+  color: #5db442;
 }
 
 /*============================================================ 
@@ -121,6 +121,14 @@ span.nav-logo {
   float: left;
 }
 
+span.nav-logo a:link, span.nav-logo a:visited {
+  color: #838383;
+}
+
+span.nav-logo a:hover, span.nav-logo a:active {
+  color: #5db442;
+}
+
 ul.nav-menu {
   float: right;
 }
@@ -130,9 +138,14 @@ ul.nav-menu li a {
   margin-left: 25px;
 }
 
+ul.nav-menu li a.btn:hover, ul.nav-menu li a.btn:active {
+  background-color: #5db442;
+  color: #fff;
+}
+
 .nav-menu .btn {
   color: #5db442;
-  border-color:  #5db442;
+  border-color: #5db442;
 }
 
 /*============================================================ 
@@ -173,6 +186,10 @@ ul.nav-menu li a {
   margin: 0; 
 }
 
+.landing button:hover {
+  color: #5db442;
+  cursor: pointer;
+}
 /*============================================================ 
  * Community Section Styles  
  *============================================================*/
@@ -234,12 +251,18 @@ ul.glyphs li a {
   height: 16px;
 }
 
+ul.glyphs li a:hover, ul.glpyhs li a:active {
+  background-color: #5db442;
+  color: #fff;
+}
+
 /*============================================================ 
  * Price Table Section Styles  
  *============================================================*/
 .editions {
   display: inline-block;
   position: relative;
+  padding: 20px;
 }
 
 .editions p.active {
@@ -278,6 +301,87 @@ ul.glyphs li a {
   display: inline-block;
 }
 
+ul.packages {
+  margin: 30px 0;
+}
+
+ul.packages > li {
+  width: 30%;
+  display: inline-block;
+  float: left;
+  border: 1px solid #ececec;
+  box-sizing: border-box;
+  margin: 0 10px;
+  position: relative;
+}
+
+ul.packages > li h2 {
+  font-size: 1.1em;
+  text-transform: uppercase;
+  padding: 25px 0 60px;
+  border-bottom: 1px solid #ececec;
+  dispay: inline-block;
+}
+
+ul.packages > li .wrapper {
+  position: absolute;
+  top: 60px;
+  left: 33%;
+  border: 3px solid #ececec;
+  border-radius: 75%;
+  display: inline-block;
+}
+
+ul.packages > li .wrapper div {
+  border: 1px solid #5db442;
+  border-radius: 75%;
+  padding: 24px 14px; 
+  background-color: #fff;
+}
+
+ul.packages > li .wrapper h3 span {
+  color: #000;
+  font-size: 2em;
+  font-style: normal;
+}
+
+ul.packages > li .wrapper h3 {
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+ul.packages ul.features {
+  padding: 70px 0 20px;
+}
+
+ul.packages ul.features li {
+  margin: 15px 0;
+}
+
+ul.packages p {
+  margin-bottom: 40px;
+}
+
+ul.packages a {
+  border: 1px solid #ececec;
+  border-radius: 20px;
+  padding: 10px 40px;
+  color: #838383;
+}
+
+ul.packages a:hover, ul.packages a:active {
+  background-color: #5db442;
+  color: #fff;
+}
+
+ul.packages ul.features i.fa-times {
+  color: #ff7d7d;
+}
+
+ul.packages ul.features i.fa-check-circle {
+  color: #5db442;
+}
+
 /*============================================================ 
  * Features Section Styles  
  *============================================================*/
@@ -288,6 +392,15 @@ ul.glyphs li a {
   padding: 40px 10px;
   display: inline-block;
   width: 22.5%;
+}
+
+.card:hover, .card:active {
+  background-color: #5db442;
+  color: #fff;
+}
+
+.card:hover .card-title i , .card:active .card-title i{
+  color: #fff; 
 }
 
 .card-title i {
@@ -310,4 +423,92 @@ p.card-desc {
 /*============================================================ 
  * Footer Section Styles  
  *============================================================*/
+.footer {
+  background-color: #efefef;
+  text-align: left;
+}
+
+.footer .links {
+  padding: 50px 0;
+  border-bottom: 1px solid #e1e2e3;
+}
+
+.links h2 {
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.links .newsletter {
+  margin-right: 40px;
+  padding: 0 10px;
+  display: inline-block;
+  float: left;
+  max-width: 33%;
+}
+
+.newsletter p {
+  margin: 20px 0;
+}
+
+.newsletter input {
+  border: none;
+  width: 60%;
+  padding: 15px 20px;
+}
+
+.newsletter button {
+  background-color: #5db442;
+  color: white;
+  border: none;
+  padding: 15px;
+}
+
+.newsletter button:hover {
+  color: #838383; 
+}
+
+.links ul.sitemap {
+  display: inline-block;
+}
+
+ul.sitemap > li {
+  float: left;   
+  margin: 0 35px;
+}
+
+ul.sitemap ul.sub-links li {
+  line-height: 1.75em;
+  margin: 5px 0;
+}
+
+ul.sitemap ul.sub-links li a {
+  color: #838383;
+}
+
+ul.sitemap ul.sub-links li a:hover {
+  color: #5db442;
+}
+
+.credit {
+  padding: 40px 0;
+}
+
+.credit span {
+  padding-left: 10px;
+  font-size: 1.1em;
+  line-height: 1.6em;
+  text-transform: uppercase;
+}
+
+.credit ul {
+  padding-right: 10px;
+  font-size: 0.8em;
+  text-align: right;
+  float: right;
+}
+
+.credit ul li {
+  margin: 5px 0;
+}
 
