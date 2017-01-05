@@ -10,14 +10,14 @@ Links to the original work will be included in both the source and on this readm
 These sites are made to be responsive, so try resizing your window or going into developer tools to see.
 * Blitz
 
-   Browser support:  
-   Live Preview | Link to .PSD  
+  Browser support: Chrome v55.0.2883, Safari v10.0.2, Firefox v50.1.0
+  [Live Preview](https://marlodelatorre.github.io/front-end-practice/blitz/) | [Link to .PSD](http://www.bestpsdfreebies.com/freebie/pay-with-a-tweet-friday-free-blitz-psd-theme/)  
 
 * Craft Lance
  
-  Browser support:  
-  Live Preview | Link to .PSD  
+  Browser support: Chrome v55.0.2883, Safari v10.0.2, Firefox v50.1.0
+  [Live Preview](https://marlodelatorre.github.io/front-end-practice/craft-lance/) | [Link to .PSD](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en_US)  
 
 ## Links to other works
-* Purdue Online Dining Guide
-* Purdue Filipino Association Landing Page
+* [Purdue Online Dining Guide](https://epics.ecn.purdue.edu/disc/podg/index.php)
+* [Purdue Filipino Association Landing Page](http://web.ics.purdue.edu/~filipino/)
